@@ -1,11 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/app.css') }}" />
+
 </head>
+
 <body>
+
     <h1> Brittany A Walker </h1>
-    <p> Hi , I'm Brittany. I am looking forward to this academic year as it's my final offical semester at uwi.I'm trying to juggle learning new langauges and working on self care. I'm currently started flutter and my fitness journey.</p>
+    <p> I'm a double major student in Computer Science and Ecomonics, who loves asian culture and experincing new things. I adore pets and love to play video games such as Stardew Valley and Mario. I recently started doing photography. Capturing the imperfect moments and editing them into something great brings me joy. I hope to develop my skills professionally and one day display them on a website I created.</p>
+    <img src="{{ url_for('static', filename='/image.jpg') }}"><img /> 
 </body>
+
 </html>
