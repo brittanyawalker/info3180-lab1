@@ -2,6 +2,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
   line-height: 1.5;
+  background-color: bisque;
 }
 
 .container {
@@ -11,7 +12,7 @@ body {
 
 h1{
   font-size: 24px;
-  color: #b2386f; 
+  color: #b2386f;
 }
 
 p{
